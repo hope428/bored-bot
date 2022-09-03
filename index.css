@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(to left, rgb(46, 46, 255), rgb(90, 161, 242));
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px black;
+    padding: .75em 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-top: 2em;
+    height: 300px;
+    width: 250px;
+    padding: 2em;
+    text-align: center;
+    color: rgb(78, 78, 78);
+    background-color: white;
+    transition: .5s;
+}
+
+.card:hover {
+    box-shadow: 2px 2px rgb(59, 56, 153);
+    transform: scale(1.05);
+}
+
+
+button {
+    font-size: 26px;
+    padding: .5em 1.5em;
+    border-radius: 12px;
+    border: none;
+    background-color: #9de2ff;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid orange;
+}
+
+.newActivity {
+    color: orange;
+}
+
+.happyBot {
+    background-image: linear-gradient(to left, pink, orange);
+}
